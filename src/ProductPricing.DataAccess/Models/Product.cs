@@ -14,6 +14,8 @@ namespace ProductPricing.DataAccess.Models
         public string Size { get; set; }
         public int Runsize { get; set; }
         public string TurnAroundTime { get; set; }
+        public string Stock { get; set; }
+
 
     }
 }
