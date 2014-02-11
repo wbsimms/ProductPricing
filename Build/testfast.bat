@@ -1,0 +1,1 @@
+msbuild ProductPricing.xml /t:SimianReport;BuildCI;Coverage;CoverageReport
