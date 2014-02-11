@@ -6,11 +6,13 @@ using System.Web.Mvc;
 
 namespace ProductPricing.Web.Controllers
 {
-    public class HomeController : Controller
+    public class ProductPricingController : Controller
     {
+        //
+        // GET: /ProductPricing/
         public ActionResult Index()
         {
             return View();
         }
-    }
+	}
 }
