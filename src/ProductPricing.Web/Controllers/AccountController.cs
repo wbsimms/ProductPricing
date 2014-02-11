@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
+using ProductPricing.DataAccess.Models;
 using ProductPricing.Web.Models;
 
 namespace ProductPricing.Web.Controllers
