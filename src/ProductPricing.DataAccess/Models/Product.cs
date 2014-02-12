@@ -18,8 +18,9 @@ namespace ProductPricing.DataAccess.Models
         public string Description { get; set; }
         public string ShippingOptions { get; set; }
         public string Price { get; set; }
+        public string Color { get; set; }
 
-
+        public string OtherOptions { get; set; }
 
     }
 }

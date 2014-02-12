@@ -32,7 +32,8 @@ namespace ProductPricing.DataAccess.Migrations
             context.ProductTypes.AddOrUpdate(x => x.Name,
                 new ProductType {Name = "Postcards",Description = ""},
                 new ProductType() {Name ="Business Cards",Description = ""},
-                new ProductType() {Name = "Notepads", Description = ""});
+                new ProductType() {Name = "Notepads", Description = ""},
+                new ProductType() {Name ="Flyers and Brochures",Description = ""});
 
             context.SaveChanges();
         }
